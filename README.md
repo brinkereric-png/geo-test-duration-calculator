@@ -50,6 +50,16 @@ If the answer is far longer than you can run, that's a useful finding. Test a bi
 
 This is planning math, not a feasibility analysis. It assumes roughly independent weekly noise and a stable test-vs-control relationship. Real designs should be checked against your own geo-level history: market matching, seasonality, and a cooldown period for delayed purchases.
 
+## What to do with this
+
+- **If the recommended length is driven by power and it's longer than you can run,** test a bigger change, use more markets, pick a less noisy KPI, or choose a different measurement step.
+- **If it's driven by the consideration cycle,** keep the full number of cycles. Cutting the test short means the read can miss purchases that haven't happened yet.
+- **If it lands on the 4-week floor,** treat four weeks as the minimum, not the target. A shorter read is directional at best.
+- **If the length fits your calendar,** check the design against your own geo-level history before launch. The [geo-test-pretest-checks](https://github.com/brinker-analytics/geo-test-pretest-checks) repo runs those checks on a GA4 export.
+
+If you want the test length fitted to your own markets and budget, send me a note and we'll talk it through: [Schedule a call](https://brinkeranalytics.com/contact).
+
+
 ## Tests
 
 ```bash
