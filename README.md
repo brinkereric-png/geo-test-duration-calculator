@@ -55,10 +55,9 @@ This is planning math, not a feasibility analysis. It assumes roughly independen
 - **If the recommended length is driven by power and it's longer than you can run,** test a bigger change, use more markets, pick a less noisy KPI, or choose a different measurement step.
 - **If it's driven by the consideration cycle,** keep the full number of cycles. Cutting the test short means the read can miss purchases that haven't happened yet.
 - **If it lands on the 4-week floor,** treat four weeks as the minimum, not the target. A shorter read is directional at best.
-- **If the length fits your calendar,** check the design against your own geo-level history before launch. The [geo-test-pretest-checks](https://github.com/brinker-analytics/geo-test-pretest-checks) repo runs those checks on a GA4 export.
+- **If the length fits your calendar,** check the design against your own geo-level history before launch. The [geo-test-pretest-checks](https://github.com/brinker-analytics/geo-test-pretest-checks) repo runs three pre-launch checks on a GA4 export: comparison strength, required spend, and whether the business can act on the result.
 
-If you want the test length fitted to your own markets and budget, send me a note and we'll talk it through: [Schedule a call](https://brinkeranalytics.com/contact).
-
+If you want the test length fitted to your own markets and budget, send me a note and we'll talk it through: [Get in touch](https://brinkeranalytics.com/contact).
 
 ## Tests
 
